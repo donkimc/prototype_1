@@ -1,2 +1,2 @@
-# prototype_1
-1st prototype of escape room
+# First Prototype
+1st prototype of escape room website
