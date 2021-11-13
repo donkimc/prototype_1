@@ -6,6 +6,10 @@ body {
   background-size: cover;
 }
 
+html, body {
+    height:100%;
+}
+
 .answer {
   flex-direction: row;
   flex: 1;
