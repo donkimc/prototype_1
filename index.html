@@ -6,11 +6,8 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- bootstrap bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <script src="script.js"></script> -->
-   
+
+
 
     <title>escape room</title>
   </head>
@@ -48,26 +45,18 @@
     </div>
         <nav class="navbar navbar-light bg-light">
           <div class="answer container-fluid">
-            <form class="d-flex">
-              <input class="form-control me-2" type="Search" placeholder="Write your answer" aria-label="Search">
-              <button id="target" class="btn btn-outline-success" type="submit">Answer</button>
+            <form id="quest" class="d-flex">
+              <input id="txt_answer" class="form-control me-2" type="Search" placeholder="Write your answer" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Answer</button>
             </form>
           </div>
         </nav>
     </div>
-    
-     <script type="text/javascript">
-      $(document).ready(function () {
-          $('#target').click(function(){
-              console.log('clicked');
-              $('#content_a').load( 'content_b.html' );
-          });
 
-      });
-    </script>
-
-
-
+    <!-- bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
   </body>
 </html>
