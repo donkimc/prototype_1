@@ -23,6 +23,5 @@ html, body {
 .content {
   flex: 1 auto;
   padding: 1.5rem;
-  background-color: black;
   color: white;
 }

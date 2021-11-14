@@ -24,14 +24,14 @@
         $('#quest').submit(function(e){
           e.preventDefault();
           var answ = $('#txt_answer').val();
-          
+
             console.log(answ);
             if (answ == '8') {
-                alert( "your answer is correct " + answ );
+              alert( "your answer is correct " + answ );
               $('#content_a').load( 'https://insightdon.github.io/prototype_1/content_b.html' );
             }
             else {
-                alert( "your answer is wrong " + answ );
+              alert( "your answer is wrong " + answ );
               $('#content_a').load( 'https://insightdon.github.io/prototype_1/content_c.html' );
             }
         });
